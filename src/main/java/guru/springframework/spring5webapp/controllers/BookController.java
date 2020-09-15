@@ -20,8 +20,8 @@ public class BookController {
         // add data to the model
         model.addAttribute("books", bookRepository.findAll());
 
-        // return the View name
-        return "books";
+        // return list template from directory books
+        return "books/list";
     }
 
 

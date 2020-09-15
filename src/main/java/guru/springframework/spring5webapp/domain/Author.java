@@ -60,11 +60,11 @@ public class Author {
     @Override   //if we are going to use 'toString' method we should override it just like this
     // and skip the fields like password or bank account information to make it more usefull
     public String toString() {
+    //  removed circular reference
         return "Author{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 
