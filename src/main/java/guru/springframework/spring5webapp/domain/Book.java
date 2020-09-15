@@ -71,11 +71,11 @@ public class Book {
 
     @Override
     public String toString() {
+    //  removed circular reference
         return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 
